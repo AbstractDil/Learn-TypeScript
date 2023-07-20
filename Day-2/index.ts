@@ -27,3 +27,6 @@ function sumTwoNumbers(x:number,y:number){
 // Here is the error because we have defined the type of the parameters as number
 
 console.log(sumTwoNumbers(5,5)); // output : 10
+
+// console.log(sumTwoNumbers(8,"Sagar")); // this is a string because we have not defined the return type of the function 
+
