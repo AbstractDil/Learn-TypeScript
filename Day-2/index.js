@@ -1,5 +1,6 @@
 // Write a code to add 2 numbers and print the sum of the numbers
 // create a function to add 2 numbers 
+//@ts-ignore 
 function addTwoNum(a, b) {
     return a + b;
 }

@@ -2,6 +2,8 @@
 
 // create a function to add 2 numbers 
 
+//@ts-ignore 
+
 function addTwoNum(a,b){
     return a+b;
 }
@@ -16,7 +18,7 @@ console.log(addTwoNum(5,"Sagar")); // output : 5Sagar
 This is because we have not defined the type of the parameters in the function
 So, we can define the type of the parameters in the function as follows.
 */
-
+//@ts-ignore
 function sumTwoNumbers(x:number,y:number){
     return x+y;
 }
